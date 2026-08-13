@@ -6,6 +6,7 @@
     <title>About Cervantes - Municipality of Cervantes</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="config.js"></script>
 </head>
 <body>
 
@@ -52,11 +53,11 @@
                     <div class="dropdown">
                         <button class="dropdown-toggle nav-item">SERVICES <span class="arrow">▼</span></button>
                         <div class="dropdown-content">
-                            <a href="../public/public.php">Job Posting</a>
-                            <a href="../public/procurement.php">PHILGEPS</a>
-                            <a href="../public/news.php">News</a>
-                            <a href="#">BIDS AND AWARDS</a>
-                            <a href="#">Scholarship Package</a>
+                            <a href="#" onclick="window.location.href = CONFIG.MAIN_APP_URL + '/static_page/public/public.php'; return false;">Job Posting</a>
+                            <a href="#" onclick="window.location.href = CONFIG.MAIN_APP_URL + '/static_page/public/procurement.php'; return false;">PHILGEPS</a>
+                            <a href="#" onclick="window.location.href = CONFIG.MAIN_APP_URL + '/static_page/public/news.php'; return false;">News</a>
+                            <a href="#" onclick="window.location.href = CONFIG.MAIN_APP_URL + '/static_page/public/bids_awards.php'; return false;">BIDS AND AWARDS</a>
+                            <a href="#" onclick="window.location.href = CONFIG.MAIN_APP_URL + '/static_page/public/scholarship.php'; return false;">Scholarship Package</a>
                         </div>
                     </div>
                 </div>
